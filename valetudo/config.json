@@ -1,0 +1,19 @@
+{
+  "name": "Valetudo For Cecotec Conga Vacuum",
+  "version": "0.1",
+  "slug": "valetudo4congaaddon",
+  "description": "Add-on that install a Valetudo server for Robot Cecotec Conga",
+  "url": "https://github.com/adrigzr/Valetudo",
+  "startup": "once",
+  "boot": "manual",
+  "ports":{
+    "8099/tcp":8099,
+    "4010/tcp":4010,
+    "4030/tcp":4030,
+    "4050/tcp":4050
+  },
+  "options": {},
+  "schema": {}, 
+  "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
+  "ingress": true
+}

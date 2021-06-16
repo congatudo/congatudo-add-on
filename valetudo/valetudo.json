@@ -1,0 +1,64 @@
+{
+  "embedded": false,
+  "robot": {
+    "implementation": "CecotecCongaRobot",
+    "implementationSpecificConfig": {
+      "ip": "192.168.3.32"
+    }
+  },
+  "webserver": {
+    "port": 8099,
+    "basicAuth": {
+      "enabled": false,
+      "username": "valetudo",
+      "password": "valetudo"
+    }
+  },
+  "zonePresets": {
+  },
+  "goToLocationPresets": {},
+  "mqtt": {
+    "enabled": false,
+    "server": "172.0.0.1",
+    "port": "1883",
+    "clientId": "valetudo",
+    "username": "1883",
+    "password": "pass",
+    "usetls": false,
+    "ca": "",
+    "clientCert": "",
+    "clientKey": "",
+    "qos": 0,
+    "identifier": "robot",
+    "topicPrefix": "valetudo",
+    "provideMapData": true,
+    "homie": {
+      "enabled": true,
+      "addICBINVMapProperty": false,
+      "cleanAttributesOnShutdown": false
+    },
+    "homeassistant": {
+      "enabled": false,
+      "autoconfPrefix": "homeassistant",
+      "cleanAutoconfOnShutdown": false
+    },
+    "clean": false,
+    "cleanTopicsOnShutdown": false,
+    "friendlyName": "conga",
+    "refreshInterval": 30
+  },
+  "ntpClient": {
+    "enabled": true,
+    "server": "pool.ntp.org",
+    "port": 123,
+    "interval": 28800000,
+    "timeout": 10000
+  },
+  "allowSSHKeyUpload": true,
+  "logLevel": "info",
+  "debug": {
+    "memoryStatInterval": false,
+    "enableRawCommandCapability": false,
+    "debugHassAnchors": false
+  }
+}
