@@ -3,7 +3,7 @@
   "robot": {
     "implementation": "CecotecCongaRobot",
     "implementationSpecificConfig": {
-      "ip": "192.168.3.32"
+      "ip": "172.0.0.1"
     }
   },
   "webserver": {
