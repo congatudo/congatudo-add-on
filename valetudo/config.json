@@ -15,5 +15,6 @@
   "options": {},
   "schema": {}, 
   "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
+  "map": ["config:rw"],
   "ingress": true
 }
