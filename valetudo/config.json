@@ -2,7 +2,7 @@
   "name": "Valetudo For Cecotec Conga Vacuum",
   "version": "0.1",
   "slug": "valetudo4congaaddon",
-  "description": "Add-on that install a Valetudo server for Robot Cecotec Conga",
+  "description": "Add-on that install a Valetudo server for Robot Cecotec Conga vacuums",
   "url": "https://github.com/adrigzr/Valetudo",
   "startup": "once",
   "boot": "manual",
