@@ -14,7 +14,7 @@ boot: auto
 options: {}
 schema: {}
 ports:
-  80/tcp: 80
+  80/tcp: null
   4010/tcp: 4010
   4030/tcp: 4030
   4050/tcp: 4050
