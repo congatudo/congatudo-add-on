@@ -1,7 +1,7 @@
-name: Valetudo for Conga
+name: Valetudo
 version: 0.1.0
-slug: valetudo4conga
-description: Free your vacuum from the cloud
+slug: valetudo
+description: Free your vacuum from the cloud. A Valetudo addon ready to use in Cecotec Conga vacuums
 url: https://github.com/txitxo0/valetudo4conga-addon
 arch:
   - armhf
@@ -14,7 +14,7 @@ boot: auto
 options: {}
 schema: {}
 ports:
-  8080/tcp: null
+  80/tcp: 80
   4010/tcp: 4010
   4030/tcp: 4030
   4050/tcp: 4050
@@ -26,5 +26,5 @@ ports_description:
 map:
   - config:rw
 ingress: true
-ingress_port: 8080
+ingress_port: 80
 panel_icon: mdi:robot-vacuum

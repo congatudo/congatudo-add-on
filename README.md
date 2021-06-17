@@ -17,7 +17,7 @@ as the docs in general at [https://valetudo.cloud](https://valetudo.cloud)
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftxitxo0%2Fvaletudo4conga-addon)
 
-2. Click on the new add-on named "Valetudo for Conga"
+2. Click on the new add-on named "Valetudo"
 3. Click `Install` on the add-on page
 4. Click `Start` and then `Open Web UI` to confirm everything is ok
 5. Under `Settings / MQTT` be sure it is pointing to your mqtt broker and that home assistant autodiscovery is enabled
