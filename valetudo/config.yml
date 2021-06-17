@@ -1,0 +1,30 @@
+name: Valetudo for Conga
+version: 0.1.0
+slug: valetudo4conga
+description: Free your vacuum from the cloud
+url: https://github.com/txitxo0/valetudo4conga-addon
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+boot: auto
+options: {}
+schema: {}
+ports:
+  8080/tcp: null
+  4010/tcp: 4010
+  4030/tcp: 4030
+  4050/tcp: 4050
+ports_description:
+  8080/tcp: "webui"
+  4010/tcp: "conga cmd port"
+  4030/tcp: "conga map port"
+  4050/tcp: "conga rtc port"
+map:
+  - config:rw
+ingress: true
+ingress_port: 8080
+panel_icon: mdi:robot-vacuum
