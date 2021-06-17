@@ -27,7 +27,7 @@ as the docs in general at [https://valetudo.cloud](https://valetudo.cloud)
 The add-on adds a file named `valetudo.json` in the `/config` directory of your HA installation.
 
 1. Open the file `/config/valetudo.json`
-2. Change the robot implementation to Conga:
+2. Change the robot implementation to Conga and save them:
 
     ```json
     {
@@ -36,7 +36,7 @@ The add-on adds a file named `valetudo.json` in the `/config` directory of your 
       }
     }
     ```
-
+3. Restart the addon
 ### Connect your robot
 
 Now you need to connect your robot to your add-on.
