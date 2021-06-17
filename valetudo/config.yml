@@ -2,7 +2,7 @@ name: Valetudo
 version: 0.1.0
 slug: valetudo
 description: Free your vacuum from the cloud. A Valetudo addon ready to use in Cecotec Conga vacuums
-url: https://github.com/txitxo0/valetudo4conga-addon
+url: https://github.com/txitxo0/valetudo-addon
 arch:
   - armhf
   - armv7

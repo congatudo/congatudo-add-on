@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/txitxo0/valetudo4conga-addon/blob/main/images/valetudo_logo_with_name.svg?raw=true" width="800" alt="valetudo">
+    <img src="https://github.com/txitxo0/valetudo-addon/blob/main/images/valetudo_logo_with_name.svg?raw=true" width="800" alt="valetudo">
     <p align="center"><h2>Free your vacuum from the cloud</h2></p>
 </div>
 
@@ -15,7 +15,7 @@ as the docs in general at [https://valetudo.cloud](https://valetudo.cloud)
 
 1. Click the button below to install this repository:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftxitxo0%2Fvaletudo4conga-addon)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftxitxo0%2Fvaletudo-addon)
 
 2. Click on the new add-on named "Valetudo"
 3. Click `Install` on the add-on page
