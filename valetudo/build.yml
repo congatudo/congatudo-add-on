@@ -1,6 +1,0 @@
-build_from:
-  armhf: adrigzr/valetudo-conga:armv7
-  armv7: adrigzr/valetudo-conga:armv7
-  aarch64: adrigzr/valetudo-conga:arm64
-  amd64: adrigzr/valetudo-conga:x64
-  i386: adrigzr/valetudo-conga:x64

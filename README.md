@@ -20,23 +20,13 @@ as the docs in general at [https://valetudo.cloud](https://valetudo.cloud)
 2. Click on the new add-on named "Valetudo"
 3. Click `Install` on the add-on page
 4. Click `Start` and then `Open Web UI` to confirm everything is ok
-5. Under `Settings / MQTT` be sure it is pointing to your mqtt broker and that home assistant autodiscovery is enabled
 
 ### Configuration
 
 The add-on adds a file named `valetudo.json` in the `/config` directory of your HA installation.
 
-1. Open the file `/config/valetudo.json`
-2. Change the robot implementation to Conga and save it:
+This add-on is automatically configured if you have a MQTT service in Home Assistant.
 
-    ```json
-    {
-      "robot": {
-        "implementation": "CecotecCongaRobot"
-      }
-    }
-    ```
-3. Restart the addon
 ### Connect your robot
 
 Now you need to connect your robot to your add-on.
