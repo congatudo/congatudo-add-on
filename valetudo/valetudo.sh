@@ -40,4 +40,10 @@ else
   bashio::log.info "Using configuration from '/config/valetudo.json'..."
 fi
 
+if [ "$(bashio::config 'debug')" = "true" ]; then
+  export DEBUG="agnoc:*"
+else
+  export DEBUG=""
+fi
+
 valetudo

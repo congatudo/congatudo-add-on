@@ -1,5 +1,5 @@
 name: Valetudo
-version: 0.1.1
+version: 0.1.2
 slug: valetudo
 description: Free your vacuum from the cloud
 url: https://github.com/txitxo0/valetudo-addon
@@ -11,8 +11,6 @@ arch:
   - i386
 startup: application
 boot: auto
-options: {}
-schema: {}
 services:
   - mqtt:want
 ports:
@@ -30,3 +28,5 @@ map:
 ingress: true
 ingress_port: 8080
 panel_icon: mdi:robot-vacuum
+schema:
+  debug: bool?
