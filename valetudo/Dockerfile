@@ -1,4 +1,4 @@
-FROM adrigzr/valetudo-conga:homeassistant
+FROM adrigzr/valetudo-conga:homeassistant-2021.06.0
 
 WORKDIR /usr/src/app
 
