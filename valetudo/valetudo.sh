@@ -9,7 +9,7 @@ if [ ! -f "/config/valetudo.json" ]; then
     jq '
       .embedded = false |
       .robot.implementation = "CecotecCongaRobot" |
-      .webserver.port = "8080"
+      .webserver.port = 8080
     ')
 
   if bashio::services.available "mqtt"; then
