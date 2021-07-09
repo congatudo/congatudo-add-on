@@ -23,7 +23,7 @@ if [ ! -f "/config/valetudo.json" ]; then
     default_config=$(echo "${default_config}" |\
       jq \
         --arg host "${host}" \
-        --arg port "${port}" \
+        --argjson port "${port}" \
         --arg username "${username}" \
         --arg password "${password}" '
           .mqtt.enabled = true |
