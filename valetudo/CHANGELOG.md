@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5
+
+- Update base image to [Valetudo 2021.07.0](https://github.com/Hypfer/Valetudo/releases/tag/2021.07.0)
+- Restore zones button in the UI
+- Add PendingMapChangeHandlingCapability
+
 ## 0.1.4
 
 - Due to a new Valetudo configuration validator tool, Fix ports in config file
