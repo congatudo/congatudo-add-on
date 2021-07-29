@@ -1,8 +1,10 @@
 #!/usr/bin/with-contenv bashio
 
-if [ ! -f "/config/valetudo.json" ]; then
+# Create config files based on default 
+# when there is no config file present
+if [ ! -f "${VALETUDO_CONFIG_PATH}" ]; then
   bashio::log.info "Downloading default configuration..."
-  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/master/backend/lib/res/default_config.json?raw=true")
+  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/2021.07.0/backend/lib/res/default_config.json?raw=true")
 
   bashio::log.info "Patching configuration..."
   default_config=$(echo "${default_config}" |\
@@ -12,6 +14,7 @@ if [ ! -f "/config/valetudo.json" ]; then
       .webserver.port = 8080
     ')
 
+  # Add mqtt info when it is available
   if bashio::services.available "mqtt"; then
     bashio::log.info "Adding MQTT configuration..."
 
@@ -34,12 +37,13 @@ if [ ! -f "/config/valetudo.json" ]; then
         ')
   fi
 
-  bashio::log.info "Writing configuration to '/config/valetudo.json'..."
-  echo "${default_config}" > "/config/valetudo.json"
+  bashio::log.info "Writing configuration to '${VALETUDO_CONFIG_PATH}'..."
+  echo "${default_config}" > "${VALETUDO_CONFIG_PATH}"
 else
-  bashio::log.info "Using configuration from '/config/valetudo.json'..."
+  bashio::log.info "Using configuration from '${VALETUDO_CONFIG_PATH}'..."
 fi
 
+# Add debug env
 if [ "$(bashio::config 'debug')" = "true" ]; then
   export DEBUG="agnoc:*"
 else

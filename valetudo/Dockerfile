@@ -1,11 +1,17 @@
-FROM adrigzr/valetudo-conga:homeassistant-2021.06.0
+FROM adrigzr/valetudo-conga:homeassistant-2021.07.0
 
+# Change user to root
+USER root
+
+# Change workdir
 WORKDIR /usr/src/app
 
+# Setup environment
 ENV VALETUDO_CONFIG_PATH=/config/valetudo.json
 
+# Copy script
 COPY valetudo.sh valetudo.sh
-
 RUN chmod a+x valetudo.sh
 
-CMD ["./valetudo.sh"]
+# Run script
+CMD ["dumb-init", "./valetudo.sh"]
