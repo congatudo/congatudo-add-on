@@ -34,14 +34,11 @@ Now you need to connect your robot to your add-on.
 1. Ensure your Conga is connected to your WiFi
 2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://gitlab.com/freeconga/stuff/-/blob/master/docs/rooting-conga.md))
 3. Edit the hosts file in the robot with your home assistant ip and reboot:
-
     ```bash
-    $ echo "<your home assistant ip> cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net" >> /etc/hosts
+    $ echo "<your home assistant ip> cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
     $ reboot
     ```
-
-4. Check the add-on logs to see if the robot is registered
-
+4. Check the add-on logs to see if the robot is registered 
 ### Screenshots
 
 ![image](https://user-images.githubusercontent.com/974410/55658091-bc0f3880-57fc-11e9-8840-3e88186d5f56.png)
