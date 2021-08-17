@@ -1,4 +1,4 @@
-FROM adrigzr/valetudo-conga:homeassistant-2021.07.1
+FROM adrigzr/valetudo-conga:homeassistant-2021.08.0
 
 # Change user to root
 USER root

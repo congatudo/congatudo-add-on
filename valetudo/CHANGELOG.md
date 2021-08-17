@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.7
+
+- Update base image to [Valetudo 2021.08.0](https://github.com/Hypfer/Valetudo/releases/tag/2021.08.0)
+- Fix battery min value
+
 ## 0.1.6
 
 - Update base image to [Valetudo 2021.07.1](https://github.com/Hypfer/Valetudo/releases/tag/2021.07.1)
