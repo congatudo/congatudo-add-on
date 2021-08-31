@@ -4,7 +4,7 @@
 # when there is no config file present
 if [ ! -f "${VALETUDO_CONFIG_PATH}" ]; then
   bashio::log.info "Downloading default configuration..."
-  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/2021.08.0/backend/lib/res/default_config.json?raw=true")
+  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/2021.08.1/backend/lib/res/default_config.json?raw=true")
 
   bashio::log.info "Patching configuration..."
   default_config=$(echo "${default_config}" |\

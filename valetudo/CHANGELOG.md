@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.8
+
+- Update base image to [Valetudo 2021.08.1](https://github.com/Hypfer/Valetudo/releases/tag/2021.08.1)
+
 ## 0.1.7
 
 - Update base image to [Valetudo 2021.08.0](https://github.com/Hypfer/Valetudo/releases/tag/2021.08.0)
