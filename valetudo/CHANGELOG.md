@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+- BREAKING CHANGE: Valetudo configuration has been changed.
+  You will need to setup again the `robot.implementation` in your `/config/valetudo.json` and restore your settings from `/config/valetudo.json.backup`.
+  If your device shows up with different id, check the config in `mqtt.identity`.
+- Update base image to [Valetudo 2021.09.0](https://github.com/Hypfer/Valetudo/releases/tag/2021.09.0)
+
 ## 0.1.8
 
 - Update base image to [Valetudo 2021.08.1](https://github.com/Hypfer/Valetudo/releases/tag/2021.08.1)
