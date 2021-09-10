@@ -4,7 +4,7 @@
 # when there is no config file present
 if [ ! -f "${VALETUDO_CONFIG_PATH}" ]; then
   bashio::log.info "Downloading default configuration..."
-  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/2021.08.1/backend/lib/res/default_config.json?raw=true")
+  default_config=$(curl -Ls "https://github.com/Hypfer/Valetudo/blob/2021.09.0/backend/lib/res/default_config.json?raw=true")
 
   bashio::log.info "Patching configuration..."
   default_config=$(echo "${default_config}" |\
@@ -30,10 +30,11 @@ if [ ! -f "${VALETUDO_CONFIG_PATH}" ]; then
         --arg username "${username}" \
         --arg password "${password}" '
           .mqtt.enabled = true |
-          .mqtt.server = $host |
-          .mqtt.port = $port |
-          .mqtt.username = $username |
-          .mqtt.password = $password
+          .mqtt.connection.host = $host |
+          .mqtt.connection.port = $port |
+          .mqtt.connection.authentication.credentials.enabled = true |
+          .mqtt.connection.authentication.credentials.username = $username |
+          .mqtt.connection.authentication.credentials.password = $password
         ')
   fi
 
