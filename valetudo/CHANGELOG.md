@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Update base image to [Valetudo 2021.09.1](https://github.com/Hypfer/Valetudo/releases/tag/2021.09.1)
+
 ## 0.2.0
 
 - BREAKING CHANGE: Valetudo configuration has been changed.
