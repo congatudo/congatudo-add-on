@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://github.com/txitxo0/valetudo-addon/blob/main/images/valetudo_logo_with_name.svg?raw=true" width="800" alt="valetudo">
-    <p align="center"><h2>Free your vacuum from the cloud</h2></p>
+    <p align="center"><h2>Free your Conga from the cloud</h2></p>
 </div>
 
 Valetudo Conga fork community add on aims to be an easy way to install valetudo conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
