@@ -3,13 +3,9 @@
     <p align="center"><h2>Free your vacuum from the cloud</h2></p>
 </div>
 
-Valetudo aims to be a vendor-agnostic abstraction and cloud replacement for vacuum robots.
+Valetudo Conga fork community add on aims to be an easy way to install valetudo conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
 
-The main goal of Valetudo is to disable all cloud connectivity and instead provide controls via a
-**mobile-friendly webinterface** as well as **MQTT** connectivity which also supports **Home Assistant Autodiscovery**.
-
-For more information, check out the [Valetudo Newcomer Guide Early 2021 Edition](https://valetudo.cloud/pages/general/newcomer_guide_early_2021.html) as well
-as the docs in general at [https://valetudo.cloud](https://valetudo.cloud)
+For more information, check out the [repository](https://github.com/adrigzr/Valetudo)
 
 ### Installation
 
@@ -39,18 +35,20 @@ Now you need to connect your robot to your add-on.
     $ reboot
     ```
 4. Check the add-on logs to see if the robot is registered 
-### Screenshots
 
-![image](https://user-images.githubusercontent.com/974410/55658091-bc0f3880-57fc-11e9-8840-3e88186d5f56.png)
-![image](https://user-images.githubusercontent.com/974410/83152218-d9d4e680-a0fd-11ea-8019-88315d80c8b9.png)
+[//]: # ( Screenshots )
 
-### Join the Discussion
+[//]: # (https://user-images.githubusercontent.com/974410/55658091-bc0f3880-57fc-11e9-8840-3e88186d5f56.png)
+[//]: # (https://user-images.githubusercontent.com/974410/83152218-d9d4e680-a0fd-11ea-8019-88315d80c8b9.png)
 
-* [Oficial Valetudo Telegram group](https://t.me/joinchat/RdqOmVgwlck1M2Iy)
-* [Valetudo Telegram Cecotec Conga group](https://t.me/freeconga)
+[//]: # (### Join the Discussion)
+
+[//]: # ( Oficial Valetudo Telegram group https://t.me/joinchat/RdqOmVgwlck1M2Iy)
+[//]: # ( Valetudo Telegram Cecotec Conga group https://t.me/freeconga)
 
 ### Resources
 
 * [FreeConga project](https://freecon.ga/) - Projects under develop for Cecotec Conga vacuum
+* [Valetudo for Conga Fork](https://github.com/adrigzr/Valetudo)
 * [Lovelace Valetudo Map Card](https://github.com/TheLastProject/lovelace-valetudo-map-card) - Map card for Home Assistant
 * [I can't believe it's not Valetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) - A companion service for PNG Maps
