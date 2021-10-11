@@ -36,10 +36,10 @@ Now you need to connect your robot to your add-on.
     ```
 4. Check the add-on logs to see if the robot is registered 
 
-[//]: # ( Screenshots )
+### Screenshots
 
-[//]: # (https://user-images.githubusercontent.com/974410/55658091-bc0f3880-57fc-11e9-8840-3e88186d5f56.png)
-[//]: # (https://user-images.githubusercontent.com/974410/83152218-d9d4e680-a0fd-11ea-8019-88315d80c8b9.png)
+![image](https://github.com/txitxo0/valetudo-conga-fork-community-add-on/blob/main/images/MainMenu.png?raw=true)
+![image](https://github.com/txitxo0/valetudo-conga-fork-community-add-on/blob/main/images/map.png?raw=true)
 
 [//]: # (### Join the Discussion)
 
