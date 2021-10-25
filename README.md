@@ -3,7 +3,7 @@
     <p align="center"><h2>Free your Conga from the cloud</h2></p>
 </div>
 
-Congatudo add-on aims to be an easy way to install vValetudo Conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
+Congatudo add-on aims to be an easy way to install Valetudo Conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
 
 For more information, check out the [repository](https://github.com/adrigzr/Valetudo)
 
