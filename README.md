@@ -1,9 +1,9 @@
 <div align="center">
-    <img src="https://github.com/txitxo0/valetudo-addon/blob/main/images/valetudo_logo_with_name.svg?raw=true" width="800" alt="valetudo">
+    <img src="https://github.com/txitxo0/congatudo-add-on/blob/main/images/logo.png?raw=true" width="800" alt="congatudo">
     <p align="center"><h2>Free your Conga from the cloud</h2></p>
 </div>
 
-Valetudo Conga fork community add on aims to be an easy way to install valetudo conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
+Congatudo add-on aims to be an easy way to install vValetudo Conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
 
 For more information, check out the [repository](https://github.com/adrigzr/Valetudo)
 
@@ -38,8 +38,8 @@ Now you need to connect your robot to your add-on.
 
 ### Screenshots
 
-![image](https://github.com/txitxo0/valetudo-conga-fork-community-add-on/blob/main/images/MainMenu.png?raw=true)
-![image](https://github.com/txitxo0/valetudo-conga-fork-community-add-on/blob/main/images/map.png?raw=true)
+![image](https://github.com/txitxo0/congatudo-add-on/blob/main/images/MainMenu.png?raw=true)
+![image](https://github.com/txitxo0/congatudo-add-on/blob/main/images/map.png?raw=true)
 
 [//]: # (### Join the Discussion)
 
