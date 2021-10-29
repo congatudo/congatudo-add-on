@@ -48,7 +48,7 @@ Now you need to connect your robot to your add-on.
 
 ### Resources
 
-* [FreeConga project](https://freecon.ga/) - Projects under develop for Cecotec Conga vacuum
+* [FreeConga project](https://gitlab.com/freeconga) - Projects under develop for Cecotec Conga vacuum
 * [Valetudo for Conga Fork](https://github.com/adrigzr/Valetudo)
 * [Lovelace Valetudo Map Card](https://github.com/TheLastProject/lovelace-valetudo-map-card) - Map card for Home Assistant
 * [I can't believe it's not Valetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) - A companion service for PNG Maps
