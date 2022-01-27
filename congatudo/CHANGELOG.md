@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+- Update base image to [Valetudo 2022.01.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.01.0)
+
 ## 0.2.2
 
 - Branding and renaming add-on
