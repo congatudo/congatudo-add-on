@@ -11,7 +11,7 @@ For more information, check out the [repository](https://github.com/adrigzr/Vale
 
 1. Click the button below to install this repository:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/txitxo0/congatudo-add-on)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/freeconga/congatudo-add-on)
 
 1. Click on the new add-on named "Valetudo"
 2. Click `Install` on the add-on page
