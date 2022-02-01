@@ -5,6 +5,7 @@
 - Update base image to [Valetudo 2022.02.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.02.0)
 - Fix swagger inside Ingress
 - Add Valetudo event when a map is pending
+- Fix armv7 memory issues
 
 ## 0.2.3
 
