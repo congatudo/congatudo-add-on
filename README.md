@@ -28,7 +28,7 @@ This add-on is automatically configured if you have a MQTT service in Home Assis
 Now you need to connect your robot to your add-on.
 
 1. Ensure your Conga is connected to your WiFi
-2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://gitlab.com/freeconga/stuff/-/blob/master/docs/rooting-conga.md))
+2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://github.com/congatudo/stuff/blob/master/docs/rooting-conga.md))
 3. Edit the hosts file in the robot with your home assistant ip and reboot:
     ```bash
     $ echo "<your home assistant ip> cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
