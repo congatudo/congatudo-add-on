@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.5
+
+- Update base image to [Valetudo 2022.09.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.09.0)
+- Use new docker repository. Using github
+
 ## 0.2.4
 
 - Update base image to [Valetudo 2022.02.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.02.0)
