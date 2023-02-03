@@ -1,4 +1,4 @@
-FROM ghcr.io/freeconga/congatudo:homeassistant-2022.09.0-conga.0
+FROM ghcr.io/congatudo/congatudo:homeassistant-2022.09.0-conga.0
 
 # Change user to root
 USER root
