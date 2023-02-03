@@ -1,9 +1,13 @@
 # Changelog
 
-## 0.2.5
+## 0.2.5 - 2022-10-21
 
+### Changed
 - Update base image to [Valetudo 2022.09.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.09.0)
-- Use new docker repository. Using github
+
+### Removed
+- Section old frontend.
+- `presets` from zones and `locations`
 
 ## 0.2.4
 

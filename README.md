@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="https://github.com/txitxo0/congatudo-add-on/blob/main/images/logo.svg?raw=true" width="800" alt="congatudo">
+    <img src="https://github.com/freeconga/congatudo-add-on/blob/main/images/logo.svg?raw=true" width="800" alt="congatudo">
     <p align="center"><h2>Free your Conga from the cloud</h2></p>
 </div>
 
 Congatudo add-on aims to be an easy way to install Valetudo Conga fork in a home assistant server, being a vendor-agnostic abstraction and cloud replacement for vacuum robots inluding Cecotec Conga robots.
 
-For more information, check out the [repository](https://github.com/adrigzr/Valetudo)
+For more information, check out the [repository](https://github.com/freeconga/Congatudo)
 
 ### Installation
 
@@ -38,8 +38,8 @@ Now you need to connect your robot to your add-on.
 
 ### Screenshots
 
-![image](https://github.com/txitxo0/congatudo-add-on/blob/main/images/MainMenu.png?raw=true)
-![image](https://github.com/txitxo0/congatudo-add-on/blob/main/images/map.png?raw=true)
+![image](https://github.com/freeconga/congatudo-add-on/blob/main/images/MainMenu.png?raw=true)
+![image](https://github.com/freeconga/congatudo-add-on/blob/main/images/map.png?raw=true)
 
 [//]: # (### Join the Discussion)
 
@@ -49,6 +49,6 @@ Now you need to connect your robot to your add-on.
 ### Resources
 
 * [FreeConga project](https://gitlab.com/freeconga) - Projects under develop for Cecotec Conga vacuum
-* [Valetudo for Conga Fork](https://github.com/adrigzr/Valetudo)
+* [Valetudo for Conga Fork](https://github.com/freeconga/Congatudo)
 * [Lovelace Valetudo Map Card](https://github.com/TheLastProject/lovelace-valetudo-map-card) - Map card for Home Assistant
 * [I can't believe it's not Valetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) - A companion service for PNG Maps

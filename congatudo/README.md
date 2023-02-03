@@ -1,10 +1,10 @@
 <div align="center">
-    <img src="https://github.com/txitxo0/congatudo-add-on/blob/main/images/logo.svg?raw=true" width="800" alt="valetudo">
+    <img src="https://github.com/freeconga/congatudo-add-on/blob/main/images/logo.svg?raw=true" width="800" alt="valetudo">
     <p align="center"><h2>Free your vacuum from the cloud</h2></p>
 </div>
 
-Congatudo add-on aims to be a vendor-agnostic abstraction and cloud replacement for Cecotec Conga vacuum robots based on [Valetudo for Conga fork](https://github.com/adrigzr/Valetudo)
+Congatudo add-on aims to be a vendor-agnostic abstraction and cloud replacement for Cecotec Conga vacuum robots based on [Valetudo for Conga fork](https://github.com/freeconga/Congatudo)
 
 ### Instructions
 
-See the [README on GitHub](https://github.com/txitxo0/congatudo-add-on) for all the details.
+See the [README on GitHub](https://github.com/freeconga/congatudo-add-on) for all the details.
