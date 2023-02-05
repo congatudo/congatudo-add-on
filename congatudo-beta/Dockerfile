@@ -14,4 +14,4 @@ COPY valetudo.sh valetudo.sh
 RUN chmod a+x valetudo.sh
 
 # Run script
-CMD ["/bin/bash", "-c", "set -e && ./valetudo.sh"]
+CMD ["dumb-init", "./valetudo.sh"]
