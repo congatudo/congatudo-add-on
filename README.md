@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/congatudo/congatudo-add-on/blob/main/images/logo.svg?raw=true" width="800" alt="congatudo">
+    <img src="https://github.com/congatudo/congatudo-add-on/blob/main/images/logo.png?raw=true" alt="congatudo">
     <p align="center"><h2>Free your vacuum from the cloud</h2></p>
 </div>
 
