@@ -17,11 +17,13 @@ For more information, check out the [repository](https://github.com/congatudo/Co
 2. Click `Install` on the add-on page
 3. Click `Start` and then `Open Web UI` to confirm everything is ok
 
+### Requirements
+Have already installed and running a MQTT server resource.
+This add-on is automatically configured if you have a MQTT service in Home Assistant.
+
 ### Configuration
 
 The add-on adds a file named `valetudo.json` in the `/config` directory of your HA installation.
-
-This add-on is automatically configured if you have a MQTT service in Home Assistant.
 
 ### Connect your robot
 
