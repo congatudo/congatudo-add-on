@@ -1,11 +1,14 @@
 # Changelog
 
+# Changelog
+
+## 2023.02.0 - 2023-02-12
+
+- Update base image to [Congatudo 2023.02.0](https://github.com/congatudo/Congatudo/releases/tag/2023.02.0)
+
 ## 0.2.5 - 2022-10-21
 
-### Changed
 - Update base image to [Valetudo 2022.09.0](https://github.com/Hypfer/Valetudo/releases/tag/2022.09.0)
-
-### Removed
 - Section old frontend.
 - `presets` from zones and `locations`
 
