@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 
 # Setup environment
 ENV VALETUDO_CONFIG_PATH=/config/valetudo.json
-    NODE_OPTIONS=--max-old-space-size=256 
+    NODE_OPTIONS=--max-old-space-size=384 
     
 # Copy script
 COPY valetudo.sh valetudo.sh
