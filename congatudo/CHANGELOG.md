@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023.04 - 2023-04-24
+
+- Update base image to [Congatudo 2023.04](https://github.com/congatudo/Congatudo/releases/tag/2023.04)
+
 ## 2023.03.0 - 2023-03-11
 
 - Update base image to [Congatudo 2023.03.0](https://github.com/congatudo/Congatudo/releases/tag/2023.03.0)
