@@ -4,7 +4,7 @@
 
 # BREAKING CHANGE
 
-- Beta configuration file renamed. from now on, different cogstudo addons will work with different configuration files.
+- Beta configuration file renamed. from now on, different congatudo addons will work with different configuration files.
 
 ## 2023.02.1 - 2023-02-22
 
