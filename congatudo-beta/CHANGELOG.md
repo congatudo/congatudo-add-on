@@ -1,6 +1,11 @@
 # Changelog
 
-# Changelog
+## 2023.12.0-beta - 2023-12-27
+
+# BREAKING CHANGE
+
+- Beta configuration file renamed. from now on, different cogstudo addons will work with different configuration files.
+
 ## 2023.02.1 - 2023-02-22
 
 - Update base image to [Congatudo 2023.02.1](https://github.com/congatudo/Congatudo/releases/tag/2023.02.1)
