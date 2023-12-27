@@ -7,7 +7,7 @@ USER root
 WORKDIR /usr/src/app
 
 # Setup environment
-ENV VALETUDO_CONFIG_PATH=/config/valetudo.json
+ENV VALETUDO_CONFIG_PATH=/config/valetudo_beta.json
 
 # Copy script
 COPY valetudo.sh valetudo.sh
