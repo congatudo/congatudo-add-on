@@ -1,5 +1,9 @@
 # Changelog
 
+## 2024.04 - 2024-04-28
+
+- Update base image to [Congatudo 2024.04](https://github.com/congatudo/Congatudo/releases/tag/2024.04)
+
 ## 2023.12 - 2024-04-02
 
 - Update base image to [Congatudo 2023.12](https://github.com/congatudo/Congatudo/releases/tag/2023.12)
