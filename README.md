@@ -93,6 +93,10 @@ If you have more than one Conga robot and need to control each one independently
 
 1. Via SSH or WinSCP Navigate to `/etc/sysconf` and open `sysConfig.ini`.
 2. Locate and modify the following lines:
+   
+   ```bash
+   vi /etc/config/app.conf
+   ```
    ```ini
    server_cmd_address=cecotec.das.3irobotix.net
    server_map_address=cecotec.das.3irobotix.net
@@ -117,10 +121,27 @@ If you have more than one Conga robot and need to control each one independently
    server_map_port=4031
    server_sync_time_port=4051
    ```
-4. Save, close the file and restart the robot.
+
+4. Save, close the file
+   - Press Esc.
+   - Type `:wq` and press Enter.
+   
+5. Restart the robot.
+
    ```bash
-   $ reboot
+   reboot
    ```
+
+6. Verify the Configuration after rebooting, SSH back in and verify the file: (Optional)
+
+   ```bash
+   cat /etc/config/app.conf
+   ```
+
+7. Ensure the new values are there.
+
+
+
 ##
 ## **7. Expected Log Output**
 If everything was configured correctly, you should see logs similar to the following in the Log tab:
@@ -133,7 +154,7 @@ If everything was configured correctly, you should see logs similar to the follo
 
 
 ##
-## *8. Running Multiple Instances*
+## **8. Running Multiple Instances**
 Each add-on will show up as a separate entity in Home Assistant. You can configure and control each one independently.
 Example:
 - Congatudo Addon: Controls Robot A
