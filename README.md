@@ -78,7 +78,7 @@ If you have more than one Conga robot and need to control each one independently
 
 1. Search for the CongaTudo Beta add-on in the Add-on Store.
 2. Install the beta add-on.
-3. Configure the add-on with the credentials of your second Conga robot.
+3. Configure the addon with the paramaters of your second Conga robot if needed:
    - `server_cmd_port=4011`
    - `server_map_port=4031`
    - `server_sync_time_port=4051`
@@ -91,54 +91,98 @@ If you have more than one Conga robot and need to control each one independently
 ##
 ## **6. Navigate and Edit `sysConfig.ini`**
 
-1. Via SSH or if you don't like **vi** use **WinSCP**, Navigate to `/etc/sysconf` and open `sysConfig.ini`.
-2. Locate and modify the following lines:
-   
-   ```bash
-   vi /etc/config/sysConfig.ini
+Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quickly and safely modify the necessary lines using `sed` commands over SSH. This approach is easier and reduces the chance of mistakes.
+
+
+1. Access the Device via SSH:
+
+   - Open PuTTY (or your preferred SSH client) on your computer.
+   - Connect to your device using its IP address and login credentials.
+
+2. Backup the Configuration File:
+
+   Before making any changes, it's a good idea to create a backup of the current `sysConfig.ini` file:
+
+   ```sh
+   cp /etc/config/sysConfig.ini /etc/config/sysConfig.ini.bak
    ```
+
+3. Review the Current Configuration:
+
+   You can view the current contents of the file to ensure it matches your expectations:
+
+   ```sh
+   cat /etc/config/sysConfig.ini
+   ```
+   It should look like this or very similar with minor valeu diffrences:
    ```ini
+   [Sys_Config]
    server_cmd_address=cecotec.das.3irobotix.net
    server_map_address=cecotec.das.3irobotix.net
    server_log_address=cecotec.log.3irobotix.net
    server_ota_address=cecotec.ota.3irobotix.net
    server_down_address=cecotec.download.3irobotix.net
-
+   server_ssl_cmd_port=5010
+   server_ssl_map_port=5030
+   server_ssl_enable=0
    server_cmd_port=4010
    server_map_port=4030
    server_sync_time_port=4050
+   server_log_port=21
+   server_ota_check_port=5000
+   server_ota_download_port=2300
+   wlan_port=8111
+   wlan_broad_port=8888
+   deviceFirmsID=1003
+   deviceType=20
+   languageType=2
+   hardwareRtc=1
+   timezoneSec=28800
+   ctrl_version=V4.0
+
    ```
-3. Then replace `cecotec.xxxxx.3irobotix.net` with the IP address of your HA and set the ports to match the configuration in the beta addon :
+    
 
-   ```ini
-   server_cmd_address=192.168.1.10
-   server_map_address=192.168.1.10
-   server_log_address=192.168.1.10
-   server_ota_address=192.168.1.10
-   server_down_address=192.168.1.10
+5. Run the Following Commands to Edit the Configuration:
+   These commands will replace the server addresses and ports with the values you need. Note that the IP address `192.168.1.10` is an example representing a HomeAssistant server on my network. **You must replace `192.168.1.10` with the IP address of your own Home Assistant server.
 
-   server_cmd_port=4011
-   server_map_port=4031
-   server_sync_time_port=4051
+   ```sh
+
+   sed -i \
+    -e 's/^server_cmd_address=.*/server_cmd_address=192.168.1.10/' \
+    -e 's/^server_map_address=.*/server_map_address=192.168.1.10/' \
+    -e 's/^server_log_address=.*/server_log_address=192.168.1.10/' \
+    -e 's/^server_ota_address=.*/server_ota_address=192.168.1.10/' \
+    -e 's/^server_down_address=.*/server_down_address=192.168.1.10/' \
+    -e 's/^server_cmd_port=.*/server_cmd_port=4011/' \
+    -e 's/^server_map_port=.*/server_map_port=4031/' \
+    -e 's/^server_sync_time_port=.*/server_sync_time_port=4051/' \
+    /etc/config/sysConfig.ini
+
    ```
 
-4. Save, close the file
-   - Press **Esc**.
-   - Type `:wq` and press **Enter**.
+6. Verify the Changes:
+
+   After running the commands, you can check the modified file:
+
+   ```sh
+   cat /etc/config/sysConfig.ini
+   ```
+
+7. Restart the robot.:
    
-5. Restart the robot.
-
    ```bash
    reboot
    ```
 
-6. Verify the Configuration after rebooting, SSH back in and verify the file: (Optional)
+
+8. Verify the Configuration after rebooting, SSH back in and verify the file: (Optional)
 
    ```bash
    cat /etc/config/app.conf
    ```
 
-7. Ensure the new values are there.
+9. Ensure the new values are there.
 
 
 
