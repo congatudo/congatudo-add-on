@@ -144,16 +144,17 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
     
 
 5. Run the Following Commands to Edit the Configuration:
-   These commands will replace the server addresses and ports with the values you need. Note that the IP address `192.168.1.10` is an example representing a HomeAssistant server on my network. **You must replace `192.168.1.10` with the IP address of your own Home Assistant server.
+   These commands will replace the server addresses and ports with the values you need. Note that the `YOUR_HOMEASSISTANT_IP` is an example representing a HomeAssistant server IP address.
+   **You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., 192.168.1.10).**
 
    ```sh
 
    sed -i \
-    -e 's/^server_cmd_address=.*/server_cmd_address=192.168.1.10/' \
-    -e 's/^server_map_address=.*/server_map_address=192.168.1.10/' \
-    -e 's/^server_log_address=.*/server_log_address=192.168.1.10/' \
-    -e 's/^server_ota_address=.*/server_ota_address=192.168.1.10/' \
-    -e 's/^server_down_address=.*/server_down_address=192.168.1.10/' \
+    -e 's/^server_cmd_address=.*/server_cmd_address=YOUR_HOMEASSISTANT_IP/' \
+    -e 's/^server_map_address=.*/server_map_address=YOUR_HOMEASSISTANT_IP/' \
+    -e 's/^server_log_address=.*/server_log_address=YOUR_HOMEASSISTANT_IP/' \
+    -e 's/^server_ota_address=.*/server_ota_address=YOUR_HOMEASSISTANT_IP/' \
+    -e 's/^server_down_address=.*/server_down_address=YOUR_HOMEASSISTANT_IP/' \
     -e 's/^server_cmd_port=.*/server_cmd_port=4011/' \
     -e 's/^server_map_port=.*/server_map_port=4031/' \
     -e 's/^server_sync_time_port=.*/server_sync_time_port=4051/' \
@@ -161,7 +162,7 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
 
    ```
 
-6. Verify the Changes:
+7. Verify the Changes:
 
    After running the commands, you can check the modified file:
 
@@ -169,20 +170,20 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
    cat /etc/config/sysConfig.ini
    ```
 
-7. Restart the robot.:
+8. Restart the robot.:
    
    ```bash
    reboot
    ```
 
 
-8. Verify the Configuration after rebooting, SSH back in and verify the file: (Optional)
+9. Verify the Configuration after rebooting, SSH back in and verify the file: (Optional)
 
    ```bash
    cat /etc/config/app.conf
    ```
 
-9. Ensure the new values are there.
+10. Ensure the new values are there.
 
 
 
@@ -230,4 +231,4 @@ Example:
 * [Congatudo project](https://gitlab.com/congatudo) - Projects under develop for Cecotec Conga vacuum
 * [Lovelace Valetudo Map Card](https://github.com/TheLastProject/lovelace-valetudo-map-card) - Map card for Home Assistant
 * [I can't believe it's not Valetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) - A companion service for PNG Maps
-* [Setting up Beta addon using WinSCP on a windows machine](https://github.com/Nismonx/conga-multiple-robots/tree/main) - This guide will help you with the file configuration in you robot using WinSCP
+* [Setting up Beta addon using WinSCP on a windows machine](https://github.com/Nismonx/conga-multiple-robots/tree/main) - This guide will help you with the file configuration in your robot using WinSCP
