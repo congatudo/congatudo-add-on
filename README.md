@@ -29,7 +29,7 @@ For more information, check out the [repository](https://github.com/congatudo/Co
 - A Windows computer (anything from the last 15 years is good enough.)
 - Have already installed and running a MQTT server resource. (preferably Mosquitto broker addon)
 This add-on is automatically configured if you have a MQTT service in Home Assistant.
-- A little basic knowlege of Linux systems will help.
+- A little knowlege of Linux systems will help.
 ##  
 ## **2. How it Works**
 - The add-on adds a file named `valetudo.json` in the `/config` directory of your HA installation.
@@ -58,17 +58,16 @@ Now you need to connect your robot to your add-on.
 1. Ensure your Conga is connected to your WiFi
 2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://github.com/congatudo/stuff/blob/master/docs/rooting-conga.md))
 3. Edit the hosts file in the robot with your home assistant ip and reboot:
+   - ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
     ```bash
-    $ echo "<your_home_assistant_ip> cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
-    $ reboot
+    echo "YOUR_HOMEASSISTANT_IP cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
+    reboot
     ```
-4. Check the add-on logs to see if the robot is registered and you are done.
+5. Check the add-on logs to see if the robot is registered and you are done.
    - Enable `Show in sidebar`.
    - Click `Start` to start the addon.
 
-##
-5. 🎉 At this point you have sucessfully set up the HA addon and robot.
-##
+6. 🎉 At this point you have sucessfully set up the HA addon and robot and you should be all done!.
 
 ##
 ##
@@ -144,9 +143,10 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
     
 
 5. Run the Following Commands to Edit the Configuration:
-   These commands will replace the server addresses and ports with the values you need. Note that the `YOUR_HOMEASSISTANT_IP` is an example representing a HomeAssistant server IP address.
-   **You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., 192.168.1.10).**
+   - These commands will replace the server addresses and ports with the values you need. Note that the `YOUR_HOMEASSISTANT_IP` is an example representing a HomeAssistant server IP address.
+   - ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
 
+   
    ```sh
 
    sed -i \
