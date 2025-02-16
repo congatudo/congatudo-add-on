@@ -16,9 +16,9 @@ services:
   - mqtt:want
 ports:
   8080/tcp: null
-  4010/tcp: 4011
-  4030/tcp: 4031
-  4050/tcp: 4051
+  4010/tcp: 4010
+  4030/tcp: 4030
+  4050/tcp: 4050
 ports_description:
   8080/tcp: "webui"
   4010/tcp: "conga cmd port"
