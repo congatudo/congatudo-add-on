@@ -16,7 +16,7 @@ For more information, check out the [repository](https://github.com/congatudo/Co
 5. [Beta Add-on for Multiple Robots](#5-beta-addon-for-multiple-robots)
 6. [Navigate and Edit sysConfig.ini](#6-navigate-and-edit-sysconfigini)
 7. [Expected Log Output](#7-expected-log-output)
-8. [Running Multiple Instances](8-running-multiple-instances)
+8. [Running Multiple Instances](#8-running-multiple-instances)
 9. [Screenshots](#9-screenshots)
 10. [Resources](#10-resources)
 
