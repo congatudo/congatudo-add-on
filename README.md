@@ -41,9 +41,9 @@ This add-on is automatically configured if you have a MQTT service in Home Assis
 ## **3. Installation**
 
 1. Click the button below to install this repository:
-2. Click on the new add-on named "Valetudo"
-3. Click `Install` on the addon page
-4. Click `Start` and then `Open Web UI` to confirm everything is ok
+2. Click on the new addon named "Congatudo".
+3. Click `Install` on the addon page.
+4. Click `Start` and then `Open Web UI` to confirm everything is ok.
 5. Configure your Conga robot's credentials and network parameters.
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/congatudo/congatudo-add-on)
@@ -53,7 +53,7 @@ This add-on is automatically configured if you have a MQTT service in Home Assis
 ##
 ## **4. Connect your robot**
 
-Now you need to connect your robot to your add-on.
+Now you need to connect your robot to your addon.
 
 1. Ensure your Conga is connected to your WiFi
 2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://github.com/congatudo/stuff/blob/master/docs/rooting-conga.md))
@@ -61,8 +61,14 @@ Now you need to connect your robot to your add-on.
    - ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
     ```bash
     echo "YOUR_HOMEASSISTANT_IP cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
-    reboot
     ```
+4.  Restart the robot:
+   
+   ```bash
+   reboot
+   ```
+
+
 5. Check the add-on logs to see if the robot is registered and you are done.
    - Enable `Show in sidebar`.
    - Click `Start` to start the addon.
@@ -170,7 +176,7 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
    cat /etc/config/sysConfig.ini
    ```
 
-8. Restart the robot.:
+8. Restart the robot:
    
    ```bash
    reboot
