@@ -219,12 +219,12 @@ Example:
 ##
 ## **9. Screenshots**
 
+![image](images/1DesckTopHomeMenu.png)
 
+![image](images/2DropDownMenu.png)
 
-![image](https://github.com/user-attachments/assets/5605249d-5c3d-4f15-856e-8ab7544b9410)
+![image](images/3MapOptions.png)
 
-![image](https://github.com/user-attachments/assets/d6da74cd-7226-47f9-90ab-415ec9ccdeb6)
-![image](https://github.com/user-attachments/assets/7e13ac7c-11a3-4d2e-ab80-fdee42e8bb21)
 
 ![image](https://github.com/congatudo/congatudo-add-on/blob/main/images/MainMenu.png?raw=true)
 ![image](https://github.com/congatudo/congatudo-add-on/blob/main/images/map.png?raw=true)
