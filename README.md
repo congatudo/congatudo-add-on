@@ -58,12 +58,16 @@ Now you need to connect your robot to your addon.
 1. Ensure your Conga is connected to your WiFi
 2. Access your Conga through SSH (follow this instruction to overpass the root password [here](https://github.com/congatudo/stuff/blob/master/docs/rooting-conga.md))
 3. Edit the hosts file in the robot with your home assistant ip and reboot:
-   - ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
-    ```bash
-    echo "YOUR_HOMEASSISTANT_IP cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
-    ```
-4.  Restart the robot:
-   
+
+ ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
+  
+  ```bash
+echo "YOUR_HOMEASSISTANT_IP cecotec.das.3irobotix.net cecotec.download.3irobotix.net cecotec.log.3irobotix.net cecotec.ota.3irobotix.net eu.das.3irobotics.net eu.log.3irobotics.net eu.ota.3irobotics.net cecotec-das.3irobotix.net cecotec-log.3irobotix.net cecotec-upgrade.3irobotix.net cecotec-download.3irobotix.net" >> /etc/hosts
+```
+
+
+
+5.  Restart the robot:
    ```bash
    reboot
    ```
@@ -152,7 +156,6 @@ Instead of manually editing `/etc/config/sysConfig.ini` with `vi`, you can quick
    - These commands will replace the server addresses and ports with the values you need. Note that the `YOUR_HOMEASSISTANT_IP` is an example representing a HomeAssistant server IP address.
    - ⚠️**You must replace `YOUR_HOMEASSISTANT_IP` with the IP address of your own HA server. (e.g., `192.168.1.10`).**
 
-   
    ```sh
 
    sed -i \
