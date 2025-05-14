@@ -8,6 +8,7 @@ WORKDIR /usr/src/app
 
 # Setup environment
 ENV VALETUDO_CONFIG_PATH=/config/valetudo_beta.json
+ENV VALETUDO_HUMAN_READABLE_SYSTEM_ID=CongatudoBeta
 
 # Copy script
 COPY valetudo.sh valetudo.sh
